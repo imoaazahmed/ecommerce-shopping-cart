@@ -1,0 +1,10 @@
+**/node_modules/*
+**/out/*
+**/.next/*
+**/dist/*
+**/test/*
+**/.scripts/*
+**/.vscode/*
+**/.husky/*
+**/.github/*
+**/tailwind.config.js/*

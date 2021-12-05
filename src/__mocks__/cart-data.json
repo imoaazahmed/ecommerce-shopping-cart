@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": "0cd43f88-d8c5-4c4f-81d8-adec86d829ab",
+      "name": "FIFA 19",
+      "price": 44.0,
+      "image": "https://picsum.photos/100",
+      "totalPrice": 88.0,
+      "quantity": 2,
+      "currency": "USD",
+      "category": "Games"
+    },
+    {
+      "id": "3cbc350b-7bc0-4b1f-b93b-858649d9ea6d",
+      "name": "Glacier white 500GB",
+      "price": 249.99,
+      "image": "https://picsum.photos/100",
+      "totalPrice": 249.99,
+      "quantity": 1,
+      "currency": "USD",
+      "category": "Games"
+    },
+    {
+      "id": "18f1587e-2b50-4557-a731-6e1111fb2461",
+      "name": "Platinum headset",
+      "price": 129.99,
+      "image": "https://picsum.photos/100",
+      "totalPrice": 129.99,
+      "quantity": 1,
+      "currency": "USD",
+      "category": "Electronics"
+    }
+  ],
+  "orderSummary": {
+    "totalPrice": 457.98,
+    "totalCost": 462.98,
+    "currency": "USD",
+    "count": 3,
+    "shippingCost": {
+      "standard": 5,
+      "nextDay": 15
+    }
+  }
+}
