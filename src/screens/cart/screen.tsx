@@ -7,6 +7,7 @@ import DATA from "src/__mocks__/cart-data.json";
 import { CartType } from "src/__mocks__/types";
 
 export function CartScreen(): JSX.Element {
+	// TEMP
 	const data = DATA as CartType;
 
 	return (

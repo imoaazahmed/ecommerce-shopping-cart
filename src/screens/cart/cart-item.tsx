@@ -100,6 +100,7 @@ interface CartItemProps {
 }
 
 export function CartItem({ cartItem }: CartItemProps): JSX.Element {
+	// TEMP
 	const data = DATA as CartType;
 	const orderSummary = data.orderSummary;
 

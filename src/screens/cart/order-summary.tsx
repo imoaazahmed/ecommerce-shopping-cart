@@ -1,6 +1,7 @@
 import { Heading, Divider, Flex, Text, Stack, Box, BoxProps, Select, Input, Button } from "@chakra-ui/react";
 import DATA from "src/__mocks__/cart-data.json";
 import { CartType } from "src/__mocks__/types";
+
 interface InputContainerProps extends BoxProps {
 	title: string;
 }
@@ -17,6 +18,7 @@ const InputContainer = ({ title, children }: InputContainerProps): JSX.Element =
 };
 
 export function OrderSummary(): JSX.Element {
+	// TEMP
 	const data = DATA as CartType;
 	const { totalPrice, totalCost, currency, count, shippingCost } = data.orderSummary ?? {};
 
